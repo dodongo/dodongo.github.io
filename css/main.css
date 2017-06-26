@@ -1,5 +1,5 @@
 canvas {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
@@ -11,7 +11,7 @@ canvas {
 nav ul,
 footer ul {
   font-family: 'Helvetica', 'Arial', 'Sans-Serif';
-  padding: 0px;
+  padding: 60px;
   list-style: none;
   font-weight: bold;
 }
@@ -64,11 +64,13 @@ ul.posts li {
 }
 
 #particleContainer {
-  margin: 60px auto;
+  margin: 0px auto;
   width: 100%;
-  position: relative;
+  height: 100%;
+  position: absolute;
 }
 
 #mainContent {
   width: 50%;
+  margin: auto;
 }
