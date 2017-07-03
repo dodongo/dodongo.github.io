@@ -80,5 +80,5 @@ video {
 
 #mainContent {
   width: 50%;
-  margin: auto;
+  margin: auto auto 14px auto;
 }
